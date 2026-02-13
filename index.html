@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Bella Italia - Italian Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="logo">🍝 La Bella Italia</div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#reservation">Reservation</a>
+      <a href="#location">Location</a>
+    </nav>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Welcome to La Bella Italia</h1>
+      <p>Experience authentic Italian cuisine, fresh ingredients, and unforgettable flavors.</p>
+      <a href="#reservation" class="btn">Reserve a Table</a>
+    </div>
+    <div class="hero-image">
+      <img src="./images/main page.jpg" alt="Italian Dish">
+    </div>
+  </section>
+
+  <!-- ===== Menu Section ===== -->
+  <section class="menu" id="menu">
+    <h2>Our <span>Menu</span></h2>
+    <div class="menu-container">
+      <div class="menu-card">
+        <img src="./images/pizza.jpg" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>Classic pizza with fresh mozzarella, tomato sauce, and basil.</p>
+        <span class="price">$12</span>
+      </div>
+      <div class="menu-card">
+        <img src="./images/pasta.jpg" alt="Pasta">
+        <h3>Spaghetti Carbonara</h3>
+        <p>Rich and creamy pasta with pancetta and parmesan cheese.</p>
+        <span class="price">$15</span>
+      </div>
+      <div class="menu-card">
+        <img src="./images/cocoa.jpg" alt="Tiramisu">
+        <h3>Tiramisu</h3>
+        <p>Classic Italian dessert with coffee, mascarpone, and cocoa.</p>
+        <span class="price">$8</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Gallery Section ===== -->
+  <section class="gallery" id="gallery">
+    <h2>Our <span>Gallery</span></h2>
+    <div class="gallery-container">
+      <img src="./images/beef.jpg" alt="">
+      <img src="./images/fish.jpg" alt="">
+      <img src="./images/burger.jpg" alt="">
+      <img src="./images/eges.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section class="about" id="about">
+    <h2>About <span>Us</span></h2>
+    <p>La Bella Italia is dedicated to bringing you authentic Italian flavors using fresh ingredients and traditional recipes passed down through generations.</p>
+  </section>
+
+  <!-- ===== Reservation Section ===== -->
+  <section class="reservation" id="reservation">
+    <h2>Reserve a <span>Table</span></h2>
+    <form class="reservation-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="number" name="people" placeholder="Number of People" required>
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <button type="submit" class="btn">Reserve Now</button>
+    </form>
+  </section>
+
+  <!-- ===== Location Section ===== -->
+  <section class="location" id="location">
+    <h2>Our <span>Location</span></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.088258796857!2d31.46511457501113!3d30.063004517692082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145819890ff746f5%3A0x5354631da4a86b7f!2sBella%20Italia!5e0!3m2!1sen!2seg!4v1770937603853!5m2!1sen!2seg"  width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- <iframe src="AIzaSyDN8T7pk999nz2IS-m5QSiQqHNY6amMiHc" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>© 2026 La Bella Italia. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
